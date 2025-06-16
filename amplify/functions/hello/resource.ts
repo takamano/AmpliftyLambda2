@@ -1,9 +1,9 @@
-import { defineFunction } from "@aws-amplify/backend";
+import { defineFunction } from '@aws-amplify/backend';
 
 export const sayHello = defineFunction({
-    name : 'sayHello',
+    name: 'sayHello',
     entry: './handler.ts',
     bundling: {
-        minify: false,
+        minify: false
     }
 })
